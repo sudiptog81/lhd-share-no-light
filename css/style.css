@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #ffffff;
+  background-color: #555555;
+}
+
+nav {
+  height: 2.75em;
+  color: #ffffff;
+  background-color: #343434;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  font-family: 'Fira Code Light';
+}
+
+nav > form {
+  margin-left: 2em;
+}
+
+nav > form > input {
+  border: 1px solid #ffffff;
+  background-color: #5d5d5d;
+  color: #ffffff;
+  padding: 5px 14px;
+}
+
+nav > form > input::placeholder {
+  opacity: 1;
+  color: #ffffff;
+  font-family: 'Fira Code Light';
+}
+
+nav > button {
+  margin-right: 2em;
+  border: 1px solid #ffffff;
+  background-color: #343434;
+  color: #ffffff;
+  padding: 5px 14px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Fira Code Light';
+}
+
+main {
+  text-align: center;
+  width: 50vw;
+  margin: 2em auto 2em auto;
+}
+
+main > .quoteText {
+  width: 35vw;
+  margin: auto;
+  font-size: 1.3rem;
+  font-family: 'Fira Code Retina';
+}
+
+main > .quoteBy {
+  font-family: 'Fira Code Light';
+  color: #bdbdbd;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-style: oblique;
+}
+
+main > .challenges > ul {
+  list-style: none;
+  margin-top: 2em;
+}
+
+main > .challenges > ul > li {
+  width: 35vw;
+  height: 2.5em;
+  margin: auto;
+  margin-top: 0.5em;
+  padding: 0.5rem;
+  border: 2px solid #ffffff;
+  background-color: #6d6d6d;
+  font-family: 'Fira Code Retina';
+  font-weight: bolder;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main > .challenges > ul > li:hover {
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  color: #343434;
+}
+
+main > .challenges > ul > li > img {
+  max-height: 2.5rem;
+  margin-right: 1rem;
+}
